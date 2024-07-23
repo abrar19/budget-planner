@@ -1,0 +1,24 @@
+.navbar{
+    background-color: gold;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+
+    h2{
+        margin: 0;
+    }
+}
+
+.login-container{
+    max-width: 400px;
+    margin: 100px auto 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.1);
+    padding: 40px;
+
+}
