@@ -17,7 +17,7 @@
     </form>
 
     <!-- Register Form -->
-    <form *ngIf="activeForm === 'register'" [formGroup]="registerForm" (ngSubmit)="login()">
+    <form *ngIf="activeForm === 'register'" [formGroup]="registerForm" (ngSubmit)="register()">
         <h2>Registration</h2>
         <div class="form-group">
             <input type="text" formControlName="username" placeholder="Username">

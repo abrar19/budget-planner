@@ -1,0 +1,70 @@
+.navbar{
+    background-color: gold;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+
+    h2{
+        margin: 0;
+    }
+}
+
+.toggle-button-row{
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 100;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba($color: #000000, $alpha: 0.2);
+
+    mat-icon{
+        font-size: 24px;
+        color: goldenrod;
+    }
+}
+
+.slide-out-panel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: gold;
+    transition: transform .3s ease-out;
+    z-index: 99;
+    box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.3);
+}
+
+.slide-out{
+    transform: translateX(-100%);
+}
+
+.slide-out-content{
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.edit-col{
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+
+    &:hover{
+        color: goldenrod;
+    }
+}
