@@ -14,7 +14,14 @@ export class DashboardComponent {
   lastMonthsIncome = ['January: $2000', 'February: $1500', 'March: $1800'];
   currentMonthIncome = '$2000'
 
+  lastMonthsExpense = ['January: $1500', 'February: $1200', 'March: $1300'];
+  currentMonthExpense = '$1800'
+
   onIncome(){
+    
+  }
+
+  onExpense(){
     
   }
 }
